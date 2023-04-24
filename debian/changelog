@@ -1,3 +1,10 @@
+8852be (1.15.10.0.5.0-2) stable; urgency=medium
+
+  [ ZHANG Yuntian ]
+  * Fix build as dkms module
+
+ -- "Radxa Computer Co., Ltd" <dev@radxa.com>  Mon, 24 Apr 2023 16:12:53 +0800
+
 8852be (1.15.10.0.5.0-1) stable; urgency=medium
 
   * Imported from radxa/kernel#9151bac05a1451b26c08f27b2aa1b0d0ebc9f58b
