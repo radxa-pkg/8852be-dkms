@@ -620,8 +620,7 @@ endif
 include $(src)/phl/phl.mk
 
 
-obj-$(CONFIG_RTL8852BE) := $(MODULE_NAME).o
-obj-$(CONFIG_RTL8852BE) := $(MODULE_NAME).o
+obj-m := $(MODULE_NAME).o
 $(MODULE_NAME)-y = $(OBJS)
 
 ############# MEMORY MANAGMENT #############
@@ -635,7 +634,7 @@ RTKM_MODULE = rtkm
 EXTRA_CFLAGS += -DCONFIG_RTKM -DCONFIG_RTKM_STANDALONE
 _MEMM_FILES += core/rtw_mem.o
 $(RTKM_MODULE)-y += $(_MEMM_FILES)
-obj-$(CONFIG_RTL8852BE) += $(RTKM_MODULE).o
+obj-m += $(RTKM_MODULE).o
 endif
 endif
 
