@@ -1,3 +1,10 @@
+8852be (1.15.10.0.5.0-3) stable; urgency=medium
+
+  [ ZHANG Yuntian ]
+  * Fix RTKM support when building as DKMS
+
+ -- "Radxa Computer Co., Ltd" <dev@radxa.com>  Tue, 25 Apr 2023 17:00:37 +0800
+
 8852be (1.15.10.0.5.0-2) stable; urgency=medium
 
   [ ZHANG Yuntian ]
