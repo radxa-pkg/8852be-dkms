@@ -12,7 +12,8 @@ Package: 8852be-dkms
 Architecture: all
 Section: misc
 Priority: optional
-Depends: ${misc:Depends},
+Depends: bc,
+         ${misc:Depends},
 Description: dkms sources for Realtek RTL8852BE Wi-Fi driver
  This package provides the dkms source code for Realtek
  RTL8852BE Wi-Fi driver.
