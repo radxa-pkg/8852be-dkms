@@ -1,3 +1,17 @@
+8852be (1.15.10.0.5.0-4) jammy; urgency=medium
+
+  [ dependabot[bot] ]
+  * Bump actions/checkout from 3 to 4
+
+  [ CodeChenL ]
+  * fix: dkms compilation errors add Depends (bc)
+  * feat: add CODEOWNERS
+
+  [ ZHANG Yuntian ]
+  * ci: sync with rtl8852bu
+
+ -- "Radxa Computer Co., Ltd" <dev@radxa.com>  Fri, 29 Mar 2024 07:54:10 +0000
+
 8852be (1.15.10.0.5.0-3) stable; urgency=medium
 
   [ ZHANG Yuntian ]
